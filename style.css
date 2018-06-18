@@ -1,0 +1,23 @@
+.lobster-font {
+    font-family: 'Lobster', cursive;
+}
+
+.icon-img {
+    max-width: 100px;
+}
+
+.footer-style {
+    background-color: black;
+    color : beige;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer > a {
+    text-decoration: none;
+    color : aqua;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Krona One', sans-serif;
+}
