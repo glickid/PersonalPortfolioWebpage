@@ -1,3 +1,8 @@
+body {
+    background-color: beige;
+}
+
+
 .lobster-font {
     font-family: 'Lobster', cursive;
 }
@@ -6,18 +11,29 @@
     max-width: 100px;
 }
 
+.vh30 {
+    min-height: 15vw;
+}
+
+.vh70 {
+    min-height: 28vw;
+}
+
  .header-bg-gradient {
     color: aquamarine;
     background: linear-gradient( rgb(12, 175, 224) 30%, rgb(45, 5, 189)); /* (must be last) */
  }
 
  .header-link-text {
-    color: aliceblue;
+    color: rgb(194, 229, 245);
     display: block;
     padding-right: .5rem;
     padding-left: .5rem;
  }
 
+.jumbotron_bg {
+    background-color: rgb(193, 237, 243);
+}
 .link-no-decoration {
     text-decoration: none;
     margin-bottom: 30px;
@@ -32,6 +48,19 @@
     bottom: 0;
     
     /* margin: 0 auto; */
+}
+
+.contact_bg {
+    background-color: rgb(226, 155, 220);
+}
+
+@media screen and (min-width : 768px) {
+
+    .imgwrapper {
+        width:50%;
+        position: relative;
+        top: 38px;
+    }
 }
 .footer-style {
     background-color: black;

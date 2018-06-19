@@ -31,7 +31,7 @@
 <body>
 
     <div class="container">
-        <nav id="navbar" class="navbar navbar-expand-md navbar-light header-bg-gradient mb-2">
+        <nav id="navbar" class="vh30 navbar navbar-expand-md navbar-light header-bg-gradient mb-2">
             <a class="navbar-brand" href="#">
                 <img class="img-fluid icon-img" src="images/icon.jpg" alt="icon">
             </a>
@@ -42,13 +42,13 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="header-link-text" id="main-a" href="#">Work</a>
+                        <a class="header-link-text" id="main-a" href="#projects">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="header-link-text" id="about-a" href="#">About</a>
+                        <a class="header-link-text" id="about-a" href="#WhoAmI">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="header-link-text" id="contact-a" href="#">Contact</a>
+                        <a class="header-link-text" id="contact-a" href="#ReachMe">Contact</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -95,12 +95,12 @@
     <main id="#main">
 
         <div class="container text-center" id="welcome-section">
-            <div class="jumbotron">
+            <div class="jumbotron jumbotron_bg vh70">
                 <h1 class="lobster-font">Yossi's Portfolio Webpage</h1>
-                <p>Experienced Front-End Developer</p>
+                <h5>Experienced Front-End Developer</h5>
             </div>
 
-            <h5>The Projects</h5>
+            <h3>The Projects</h3>
             <div class="row" id="projects">
                 <div class="col-sm-4 mt-3">
                     <a href="https://glickid.github.io/mimik_of_paz/" target="_blank">
@@ -190,6 +190,40 @@
                     </a>
                 </div>
 
+            </div>
+        </div>
+
+        <div id="ReachMe" class="container text-center mt-5 mb-5">
+            <div class="contact_bg mx-auto">
+                <nav class="pt-5">
+                    <h3>Let's Make Contact</h3>
+                    <h5>How do you drink your coffee?</h5>
+                </nav>
+                <div class="row mx-auto">
+                    <div class="col-3 mt-5 float-left">
+                        <a id="profile-link" href="https://github.com/glickid" target="_blank">
+                            <img class="rounded-circle img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ei-sc-github.svg/200px-Ei-sc-github.svg.png"
+                                alt="github" srcset="">
+                        </a>
+                    </div>
+                    <div class="col-3 mt-5 float-left">
+                        <a id="profile-link2" href="https://www.facebook.com/yosiglik" target="_blank">
+                            <img class="rounded-circle img-fluid imgwrapper" src="http://www.acgov.org/img/facebook200x200.png" alt="FB">
+                        </a>
+                    </div>
+                    <div class="col-3 mt-5 float-left">
+                        <a id="profile-link3" href="https://www.linkedin.com/in/yossi-glick-a6552927/" target="_blank">
+                            <img class="rounded-circle img-fluid imgwrapper" src="https://i.pinimg.com/originals/bc/bb/59/bcbb5939edd85939a1619f8b7034e21a.jpg"
+                                alt="linkedin">
+                        </a>
+                    </div>
+                    <div class="col-3 mt-5 float-left">
+                        <a id="profile-link4" href="mailto:glickid@yahoo.com" target="#">
+                            <img class="rounded-circle img-fluid imgwrapper" src="http://www.justharvest.org/wp-content/uploads/2014/01/mail-icon-button-200x200.png"
+                                alt="mail" srcset="">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
