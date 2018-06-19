@@ -31,9 +31,9 @@
 <body>
 
     <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light bg-light mb-2">
+        <nav id="navbar" class="navbar navbar-expand-md navbar-light header-bg-gradient mb-2">
             <a class="navbar-brand" href="#">
-                <img class="img-fluid icon-img" src="icon.jpg" alt="icon">
+                <img class="img-fluid icon-img" src="images/icon.jpg" alt="icon">
             </a>
             <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -42,18 +42,18 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" id="main-a" href="#">Work</a>
+                        <a class="header-link-text" id="main-a" href="#">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="about-a" href="#">About</a>
+                        <a class="header-link-text" id="about-a" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="contact-a" href="#">Contact</a>
+                        <a class="header-link-text" id="contact-a" href="#">Contact</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#SignUpModal">Singup</a>
+                        <a class="header-link-text" href="#" data-toggle="modal" data-target="#SignUpModal">Singup</a>
                     </li>
                 </ul>
             </div>
@@ -94,8 +94,103 @@
     </div>
     <main id="#main">
 
-        <div class="container text-center mt-5" id="welcome-section">
-            <h1 class="lobster-font">Yossi's Portfolio Webpage</h1>
+        <div class="container text-center" id="welcome-section">
+            <div class="jumbotron">
+                <h1 class="lobster-font">Yossi's Portfolio Webpage</h1>
+                <p>Experienced Front-End Developer</p>
+            </div>
+
+            <h5>The Projects</h5>
+            <div class="row" id="projects">
+                <div class="col-sm-4 mt-3">
+                    <a href="https://glickid.github.io/mimik_of_paz/" target="_blank">
+                        <div class="card h-100 p-2">
+                            <img class="card-img-top rounded-circle" src="images/paz.jpg" alt="">
+                            <div class="card-body position-relative">
+                                <h4 id="project-tile" class="link-no-decoration">Mimik Paz site from 18-Oct-17</h4>
+                                <p class="link-no-decoration">This project was to mimk the Paz site, with all it's features, styles and images, plese be
+                                    sure to click the 'contact us' link</p>
+                                <a href="#" class="btn btn-primary btn-primary position-bottom">Learn More
+                                    <i class="fas fa-hand-point-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 mt-3">
+                    <a href="https://glickid.github.io/form_with_validations/" target="_blank">
+                        <div class="card h-100 p-2">
+                            <img class="card-img-top rounded-circle" src="images/registration.jpg" alt="">
+                            <div class="card-body position-relative">
+                                <h4 class="link-no-decoration">Simple Rgistration Form With Validations</h4>
+                                <p class="link-no-decoration">A simple registartion form is always in use, all critic info is validated i.e correct e-mail,
+                                    valid password and re-entered password validation</p>
+                                <a href="#" class="btn btn-primary btn-primary position-bottom">Learn More
+                                    <i class="fas fa-hand-point-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 mt-3">
+                    <a href="https://glickid.github.io/WileECoyote_RoadRunner_tribute_page/" target="_blank">
+                        <div class="card h-100 p-2">
+                            <img class="card-img-top rounded-circle" src="images/vinilos-infantiles-coyote-y-correcaminos.jpg" alt="road runner">
+                            <div class="card-body position-relative">
+                                <h4 class="link-no-decoration">Wile E. Coyote Road Runner - Tribute Page</h4>
+                                <p class="link-no-decoration">A screen size responsive tribute page for the unforgettable Wile E. Coyote and his nemesis
+                                    the Road Runner</p>
+                                <a href="#" class="btn btn-primary btn-primary position-bottom">Learn More
+                                    <i class="fas fa-hand-point-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 mt-3">
+                    <a href="https://glickid.github.io/screen_size_responsive_page/" target="_blank">
+                        <div class="card h-100 p-2">
+                            <img class="card-img-top rounded-circle" src="images/responsive.jpg" alt="responsive page">
+                            <div class="card-body position-relative">
+                                <h4 class="link-no-decoration">Responsive Page with Articles</h4>
+                                <p class="link-no-decoration">A screen size responsive page with articles nicely layout</p>
+                                <a href="#" class="btn btn-primary btn-primary position-bottom">Learn More
+                                    <i class="fas fa-hand-point-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 mt-3">
+                    <a href="https://glickid.github.io/CatBook_using_bootstrap/" target="_blank">
+                        <div class="card h-100 p-2">
+                            <img class="card-img-top rounded-circle" src="images/Cat_book_icon.png" alt="Cat Book">
+                            <div class="card-body position-relative">
+                                <h4 class="link-no-decoration">Cat Book - Bootstarp use example</h4>
+                                <p class="link-no-decoration">A cat book page demonstrates bootstrap use with signup modal, jumbotron, cards and carousel</p>
+                                <a href="#" class="btn btn-primary btn-primary position-bottom">Learn More
+                                    <i class="fas fa-hand-point-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 mt-3">
+                    <a href="https://glickid.github.io/header_3Articles_Footer/" target="_blank">
+                        <div class="card h-100 p-2">
+                            <img class="card-img-top rounded-circle" src="images/hebPage.jpg" alt="Hebrew Page">
+                            <div class="card-body position-relative">
+                                <h4 class="link-no-decoration">Hebrew Page with Header, side-dropdown-menu, articles and a footer </h4>
+                                <p class="link-no-decoration">Hebrew Page with Header, side-dropdown-menu, articles and a footer - using float technique.</p>
+                                <a href="#" class="btn btn-primary btn-primary position-bottom">Learn More
+                                    <i class="fas fa-hand-point-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
         </div>
     </main>
 
