@@ -23,76 +23,77 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
-
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <main id="#main">
+        <div class="container">
+            <nav id="navbar" class="linksline vh30 navbar navbar-expand-md navbar-light header-bg-gradient mb-2">
+                <!-- <nav class="linksline"> -->
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid icon-img" src="images/icon.jpg" alt="icon">
+                </a>
+                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="header-link-text" id="main-a" href="#projects">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header-link-text" id="about-a" href="#WhoAmI">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header-link-text" id="contact-a" href="#ReachMe">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="header-link-text" href="#" data-toggle="modal" data-target="#SignUpModal">Singup</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- </nav> -->
 
-    <div class="container">
-        <nav id="navbar" class="vh30 navbar navbar-expand-md navbar-light header-bg-gradient mb-2">
-            <a class="navbar-brand" href="#">
-                <img class="img-fluid icon-img" src="images/icon.jpg" alt="icon">
-            </a>
-            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="header-link-text" id="main-a" href="#projects">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="header-link-text" id="about-a" href="#WhoAmI">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="header-link-text" id="contact-a" href="#ReachMe">Contact</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="header-link-text" href="#" data-toggle="modal" data-target="#SignUpModal">Singup</a>
-                    </li>
-                </ul>
-            </div>
-
-
-            <!-- Modal -->
-            <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <form class="form-signin">
-                                <h2 class="form-signin-heading">Please sign in</h2>
-                                <label for="inputEmail" class="sr-only">Email address</label>
-                                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                                <label for="inputPassword" class="sr-only">Password</label>
-                                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" value="remember-me"> Remember me
-                                    </label>
-                                </div>
-                                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save</button>
+                <!-- Modal -->
+                <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="form-signin">
+                                    <h2 class="form-signin-heading">Please sign in</h2>
+                                    <label for="inputEmail" class="sr-only">Email address</label>
+                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                                    <label for="inputPassword" class="sr-only">Password</label>
+                                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="remember-me"> Remember me
+                                        </label>
+                                    </div>
+                                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </div>
-    <main id="#main">
+                <!-- </nav> -->
+            </nav>
+        </div>
 
         <div class="container text-center" id="welcome-section">
             <div class="jumbotron jumbotron_bg vh70">
@@ -100,14 +101,16 @@
                 <h5>Experienced Front-End Developer</h5>
             </div>
 
-            <h3>The Projects</h3>
-            <div class="row" id="projects">
-                <div class="col-sm-4 mt-3">
+            <div id="projects">
+                <h3>The Projects</h3>
+            </div>
+            <div class="row">
+                <div class="project-tile col-sm-4 mt-3">
                     <a href="https://glickid.github.io/mimik_of_paz/" target="_blank">
                         <div class="card h-100 p-2">
                             <img class="card-img-top rounded-circle" src="images/paz.jpg" alt="">
                             <div class="card-body position-relative">
-                                <h4 id="project-tile" class="link-no-decoration">Mimik Paz site from 18-Oct-17</h4>
+                                <h4 class="project-tile link-no-decoration">Mimik Paz site from 18-Oct-17</h4>
                                 <p class="link-no-decoration">This project was to mimk the Paz site, with all it's features, styles and images, plese be
                                     sure to click the 'contact us' link</p>
                                 <a href="#" class="btn btn-primary btn-primary position-bottom">Learn More
@@ -226,14 +229,14 @@
                 </div>
             </div>
         </div>
-    </main>
 
-    <footer class="col-12 footer-style">
-        I am
-        <a href="mailto:glickid@yahoo.com" target="#">Yossi Glick
-            <i class="far fa-envelope"></i>
-        </a>
-    </footer>
+        <footer class="col-12 footer-style">
+            I am
+            <a href="mailto:glickid@yahoo.com" target="#">Yossi Glick
+                <i class="far fa-envelope"></i>
+            </a>
+        </footer>
+    </main>
 </body>
 
 </html>

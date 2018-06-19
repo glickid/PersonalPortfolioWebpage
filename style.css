@@ -2,21 +2,33 @@ body {
     background-color: beige;
 }
 
+#navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.linksline {
+    padding-left: 50px;
+}
 
 .lobster-font {
     font-family: 'Lobster', cursive;
 }
 
 .icon-img {
-    max-width: 100px;
+    max-width: 55px;
 }
 
 .vh30 {
-    min-height: 15vw;
+    max-height: 5vw;
 }
 
 .vh70 {
-    min-height: 28vw;
+    min-height: 38vw;
+    margin-top: 6vw;
 }
 
  .header-bg-gradient {
@@ -54,8 +66,8 @@ body {
     background-color: rgb(226, 155, 220);
 }
 
-@media screen and (min-width : 768px) {
-
+@media only screen and (min-width : 768px) 
+{
     .imgwrapper {
         width:50%;
         position: relative;
