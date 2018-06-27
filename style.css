@@ -1,15 +1,18 @@
 body {
     background-color: beige;
+        margin:0;
+        overflow:hidden;
 }
 
-#navbar {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2;
+@media screen and (min-width: 512px) {
+    #navbar {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
 }
-
 .linksline {
     padding-left: 50px;
 }
@@ -22,14 +25,17 @@ body {
     max-width: 55px;
 }
 
-.vh30 {
+#welcome-section {
+    height: 572px;
+}
+/* .vh30 {
     max-height: 5vw;
 }
 
 .vh70 {
     min-height: 38vw;
     margin-top: 6vw;
-}
+} */
 
  .header-bg-gradient {
     color: aquamarine;
