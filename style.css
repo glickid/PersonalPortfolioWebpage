@@ -1,18 +1,22 @@
-body {
-    background-color: beige;
-        margin:0;
-        overflow:hidden;
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-@media screen and (min-width: 512px) {
-    #navbar {
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 2;
-    }
+body {
+    background-color: beige;
+        /* margin:0; */
+        /* overflow:hidden; */
 }
+
+#navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
 .linksline {
     padding-left: 50px;
 }
@@ -26,15 +30,28 @@ body {
 }
 
 #welcome-section {
-    height: 572px;
-}
-/* .vh30 {
-    max-height: 5vw;
+    height: 100vh;
 }
 
-.vh70 {
-    min-height: 38vw;
-    margin-top: 6vw;
+.margin-0 {
+    margin: 0 auto;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.jumbotron-padding {
+    padding: 174px 0px 132px 0px;
+}
+/* .vh30 {
+    max-height: 5vw; 
+    height: 30%;
+} */
+
+/* .vh70 {
+    height: 70%;
+    margin-top: 100px;
 } */
 
  .header-bg-gradient {
@@ -72,14 +89,7 @@ body {
     background-color: rgb(226, 155, 220);
 }
 
-@media only screen and (min-width : 768px) 
-{
-    .imgwrapper {
-        width:50%;
-        position: relative;
-        top: 38px;
-    }
-}
+
 .footer-style {
     background-color: black;
     color : beige;
@@ -95,3 +105,56 @@ footer > a {
     /* font-family: 'Lobster', cursive; */
     font-family: 'Krona One', sans-serif;
 }
+
+@media only screen and (min-width : 768px) 
+{
+    .imgwrapper {
+        width:50%;
+        position: relative;
+        top: 38px;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    .project-tile {
+        display: block;
+        width: 75%;
+    }
+
+    .position-bottom {
+        position: absolute;
+        bottom: 0;
+        right: 218px;
+    }
+
+    #welcome-section {
+        height: 52vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #about-me{
+        line-height: 1em;
+    }
+    #welcome-section{
+        padding:0;
+    }
+
+    .jumbotron-padding {
+        padding: 80px 0px 50px 0px;
+    }
+}
+@media only screen and (max-width: 367px) {
+    /*    #contact{
+      min-height:1100px;
+    } */
+    #connect-me {
+      border: 2px solid #90C695;
+      border-radius: 0;
+      width: 90px;
+      height: 20px;
+      padding: 10px;
+      line-height: normal;
+    }
+  }
