@@ -79,11 +79,9 @@ body {
 }
 
 .position-bottom {
-    position: absolute;
-    bottom: 0;
-    
-    /* margin: 0 auto; */
-}
+    width: 100%;
+    margin: 0 auto;
+} 
 
 .contact_bg {
     background-color: rgb(226, 155, 220);
@@ -119,12 +117,6 @@ footer > a {
     .project-tile {
         display: block;
         width: 75%;
-    }
-
-    .position-bottom {
-        position: absolute;
-        bottom: 0;
-        right: 218px;
     }
 
     #welcome-section {
