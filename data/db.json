@@ -1,0 +1,46 @@
+{
+    "projects" : [
+        {
+            "githubLink" : "https://glickid.github.io/angularActorCards",
+            "image" : "images/gallery.png",
+            "header" : "Actresses and Movie Gallery",
+            "text" : "This project envolves <span class='bg-info text-white'>AngularJS with Controllers, services and directive</span>, with GETting info from external API."
+         },
+         {   
+            "githubLink" : "https://glickid.github.io/mimik_of_paz/" ,
+            "image" : "images/paz.jpg",
+            "header" : "Mimik Paz site from 18-Oct-17",
+            "text" : "This project was to mimk the Paz site, with all it's features, styles and images, please be sure to click the 'contact us' link"
+         },
+         {
+            "githubLink" : "https://glickid.github.io/form_with_validations/" ,
+            "image" : "images/registration.jpg",
+            "header" : "Simple Rgistration Form With Validations",
+            "text" : "A simple registartion form is always in use, all critic info is validated i.e correct e-mail, valid password and re-entered password validation"
+         },
+         {
+            "githubLink" : "https://glickid.github.io/WileECoyote_RoadRunner_tribute_page/",
+            "image" : "images/vinilos-infantiles-coyote-y-correcaminos.jpg",
+            "header" : "Wile E. Coyote Road Runner - Tribute Page",
+            "text" : "A screen size responsive tribute page for the unforgettable Wile E. Coyote and his nemesis the Road Runner"
+         },
+         {
+            "githubLink" : "https://glickid.github.io/screen_size_responsive_page/",
+            "image" : "images/responsive.jpg",
+            "header" : "Responsive Page with Articles",
+            "text" : "A screen size responsive page with articles nicely layout"
+         },
+         {
+            "githubLink" : "https://glickid.github.io/CatBook_using_bootstrap/",
+            "image" : "images/Cat_book_icon.png",
+            "header" : "Cat Book - Bootstarp use example",
+            "text" : "A cat book page demonstrates bootstrap use with signup modal, jumbotron, cards and carousel"
+         },
+         {
+            "githubLink" : "https://glickid.github.io/header_3Articles_Footer/",
+            "image" : "images/hebPage.jpg",
+            "header" : "Hebrew Page with Header, side-dropdown-menu, articles and a footer",
+            "text" : "Hebrew Page with Header, side-dropdown-menu, articles and a footer - using float technique"
+         }
+    ]
+}
