@@ -44,6 +44,16 @@ body {
 .jumbotron-padding {
     padding: 174px 0px 132px 0px;
 }
+
+.b-image {
+    max-width: 33px;
+    margin-bottom: 11px;
+}
+
+.j-image {
+    max-width: 35px;
+    margin-bottom: 11px;
+}
 /* .vh30 {
     max-height: 5vw; 
     height: 30%;
