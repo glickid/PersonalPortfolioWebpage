@@ -43,19 +43,19 @@
                     </button>
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="header-link-text" id="main-a" href="#projects">Work</a>
+                            <li class="nav-item active mr-2">
+                                <a class="header-link-text" id="main-a" href="#projects">My Projects</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item mr-2">
                                 <a class="header-link-text" id="about-a" href="https://www.linkedin.com/in/yossi-glick-a6552927/" target="_blank">About</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item mr-2">
                                 <a class="header-link-text" id="contact-a" href="#ReachMe">Contact</a>
                             </li>
                         </ul>
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <a class="header-link-text" href="javascript:void(0)" data-toggle="modal" data-target="#SignUpModal">Signup</a>
+                                <a class="header-link-text" href="javascript:void(0)" data-toggle="modal" data-target="#SignUpModal">Signin (fake)</a>
                             </li>
                         </ul>
                     </div>
@@ -84,14 +84,31 @@
             <!-- container-->
         </div>
         <!-- welcome-section -->
-
-        <div id="projects" style="height:80px">
-            <p> </p>
-        </div>
-        <div>
+        <div class="mt-5">
             <div class="container" ng-controller="projectCtrl">
                 <div class="row justify-content-center">
-                    <h3 class="d-inline-block">The Projects</h3>
+                    <p id="projects" class="h1 d-inline-block">The Projects</p>
+                </div>
+                <div class="row mt-5 mb-5">
+                    <div class="col-sm-12">
+                        <p class="h2 ml-5 mb-2 text-primary">Main project - EStockData</p>
+                        <div class="ml-5">
+                            <p>AngularJS Site which let a <span class="text-danger">regitered</span> user:</p>
+                            <ul>
+                                <li>manage a vritual stock portfolio with charts and stock info</li>
+                                <li>Set alerts to sell with take-profit or stop-loss</li>
+                                <li>See Cryptographic currencies historic prices and charts</li>
+                            </ul>
+                        </div>
+                        <a class="link-no-decoration" href="https://glickid.github.io/EStockData/#!/">
+                            <img class="img-fluid" src="images/estockdata.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 ml-5 text-success">
+                        <p class="h2">The rest of them</p>
+                    </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="project-tile col-lg-4 col-sm-10 mt-3" ng-repeat="project in projectArr">
