@@ -6,6 +6,12 @@
             "header" : "Actresses and Movie Gallery",
             "text" : "This project envolves <span class='bg-info text-white'>AngularJS with Controllers, services and directive</span>, with GETting info from external API."
          },
+        {
+            "githubLink" : "https://glickid.github.io/ToDo-Application/",
+            "image" : "images/todo.png",
+            "header" : "ToDo Application - Manage tasks",
+            "text" : "AngularJS app that lets the user manage a todo task list"
+        },
          {   
             "githubLink" : "https://glickid.github.io/mimik_of_paz/" ,
             "image" : "images/paz.jpg",
