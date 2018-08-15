@@ -80,10 +80,26 @@ body {
 .jumbotron_bg {
     background-color: rgb(193, 237, 243);
 }
+
 .link-no-decoration {
     text-decoration: none;
     margin-bottom: 30px;
 }
+
+#ESD-description {
+    list-style: none;
+    padding: 0;
+}
+ 
+#ESD-description li {
+    padding-left: 1.3em;
+}
+
+.ESD-description-text {
+    padding-left : 1em;
+}
+  
+
 
 .position-relative {
     position: relative;
