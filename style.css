@@ -89,8 +89,10 @@ body {
 }
 
 .position-bottom {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
+    position: absolute;
+    bottom: 0;
 } 
 
 .contact_bg {
