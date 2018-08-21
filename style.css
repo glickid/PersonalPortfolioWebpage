@@ -86,12 +86,12 @@ body {
     margin-bottom: 30px;
 }
 
-#ESD-description {
+.ESD-description {
     list-style: none;
     padding: 0;
 }
  
-#ESD-description li {
+.ESD-description li {
     padding-left: 1.3em;
 }
 
