@@ -10,7 +10,7 @@
             "githubLink" : "https://glickid.github.io/dog-book/#!/",
             "image" : "images/dogBook.png",
             "header" : "AngularJS based app gallery",
-            "text" : "AngularJS based Dog breed gallery with search and side-bar"
+            "text" : "AngularJS based Dog breed gallery with search and side-bar using <span class='bg-info text-white'>RESTapi</span> to GET the data from external API."
          },
         {
             "githubLink" : "https://glickid.github.io/ToDo-Application/",
