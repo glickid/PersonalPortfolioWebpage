@@ -30,9 +30,9 @@ body {
     max-width: 55px;
 }
 
-#welcome-section {
+/* #welcome-section {
     height: 100vh;
-}
+} */
 
 .margin-0 {
     margin: 0 auto;
@@ -55,27 +55,18 @@ body {
     max-width: 35px;
     margin-bottom: 11px;
 }
-/* .vh30 {
-    max-height: 5vw; 
-    height: 30%;
-} */
 
-/* .vh70 {
-    height: 70%;
-    margin-top: 100px;
-} */
-
- .header-bg-gradient {
+.header-bg-gradient {
     color: aquamarine;
     background: linear-gradient( rgb(12, 175, 224) 30%, rgb(45, 5, 189)); /* (must be last) */
- }
+}
 
- .header-link-text {
+.header-link-text {
     color: rgb(194, 229, 245);
     display: block;
     padding-right: .5rem;
     padding-left: .5rem;
- }
+}
 
 .jumbotron_bg {
     background-color: rgb(193, 237, 243);
@@ -83,7 +74,7 @@ body {
 
 .link-no-decoration {
     text-decoration: none;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .ESD-description {
@@ -99,7 +90,29 @@ body {
     padding-left : 1em;
 }
   
+#quote-bubble {
+        display: inline-block;
+        margin: 0 auto;
+        -moz-transform: scaleY(-1);
+        -o-transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+        filter: FlipV;
+        -ms-filter: "FlipV";
+        max-width: 100%;
+}
 
+#eval-text {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 10px;
+        max-width: 353px;
+}
 
 .position-relative {
     position: relative;
@@ -142,15 +155,27 @@ footer > a {
     }
 }
 
+@media only screen and (max-width : 1200px) 
+{
+    #eval-text {
+        top: 83%;
+    }
+}
+
 @media only screen and (max-width : 992px) {
     .project-tile {
         display: block;
         width: 75%;
     }
 
-    #welcome-section {
-        height: 52vh;
+    #eval-text {
+        top: 77%;
+        left: 50%;
+        font-size: 8px;
     }
+    /* #welcome-section {
+        height: 52vh;
+    } */
 }
 
 @media only screen and (max-width: 600px) {
@@ -162,6 +187,13 @@ footer > a {
         padding:0;
     }
 
+    #eval-text {
+        /* top: 77px;
+        left: 0; */
+        font-size: 6px;
+        right: -40px;
+    }
+
     .jumbotron-padding {
         padding: 80px 0px 50px 0px;
     }
@@ -170,6 +202,14 @@ footer > a {
     /*    #contact{
       min-height:1100px;
     } */
+
+    #eval-text {
+        top: 343px;
+        left: 157px;
+        /* font-size: 6px;
+        right: -96px; */
+    }
+
     #connect-me {
       border: 2px solid #90C695;
       border-radius: 0;
