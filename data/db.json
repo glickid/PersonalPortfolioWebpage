@@ -1,7 +1,7 @@
 {
     "projects" : [
         {
-            "githubLink" : "https://glickid.github.io/angularActorCards",
+            "githubLink" : "https://glickid.github.io/angularActorCardsServer/",
             "image" : "images/gallery.png",
             "header" : "Actresses and Movie Gallery",
             "text" : "This project written with <span class='bg-info text-white'>AngularJS</span> Controllers, Services and Directives, and uses <span class='bg-info text-white'>RESTapi</span> to GET the data from external API."
