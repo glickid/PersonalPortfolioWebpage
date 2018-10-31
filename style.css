@@ -104,13 +104,13 @@ body {
 
 #eval-text {
         position: absolute;
-        top: 85%;
+        top: 84%;
         left: 50%;
         transform: translate( -50%, -50% );
         text-align: center;
         color: black;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 9px;
         max-width: 353px;
 }
 
