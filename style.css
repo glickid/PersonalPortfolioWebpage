@@ -191,7 +191,8 @@ footer > a {
         /* top: 77px;
         left: 0; */
         font-size: 6px;
-        right: -40px;
+        right: -16%;
+        bottom: 10%;
     }
 
     .jumbotron-padding {
@@ -204,11 +205,11 @@ footer > a {
     } */
 
     #eval-text {
-        top: 343px;
-        left: 157px;
-        /* font-size: 6px;
-        right: -96px; */
-    }
+        top: 77%;
+        left: 47%;
+        font-size: 6px;
+        /* right: -96px; */
+    } */
 
     #connect-me {
       border: 2px solid #90C695;
